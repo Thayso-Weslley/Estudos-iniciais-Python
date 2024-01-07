@@ -10,13 +10,13 @@ while Numero > 5 or Numero < 0:
     Numero = int(input("  Número: "))
 
     if Numero == NumeroSorteado:
-        os.system("clear")
+        os.system("cls")
         print("    Parabéns!!\n\n   O número gerado aleatorialmente realmente era {}.\n\n".format(Numero))
         break
         
     elif Numero < 0 or Numero > 5:
-         os.system("clear")
+         os.system("cls")
          print("   Resposta inválida! \n\n  Você deve digitar um número inteiro entre 0 e 5\n\n")
     else:
-             os.system("clear")
+             os.system("cls")
              print("  Poxa, que pena!\n  O número correto era {}.\n\n  Por que não tenta de novo?\n\n".format(NumeroSorteado))

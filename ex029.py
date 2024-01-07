@@ -10,7 +10,7 @@ while True:
     
     
     elif velocidade < 0:
-        os.system("clear")
+        os.system("cls")
         print("   Essa não é uma velocidade válida!\n   Por favor, digite um número natural para a velocidade.\n\n")
         
     else:

@@ -12,7 +12,7 @@ def titulo(texto):
     print("=="*30)
 
 # A intenção do programa é indicar frases que são iguais
-# se forem escritas de trás para frente ignaorando os espaços
+# se forem escritas de trás para frente, ignorando os espaços
 #
 # Exemplos:
 #       "Apos a sopa"
